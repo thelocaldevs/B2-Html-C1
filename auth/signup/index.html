@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+
+<body>
+    <h1>Join our community</h1>
+
+    <form>
+        <div>
+            <label for="username">Username: </label>
+            <input type="text" placeholder="Enter your username" name="username" id="username" required>
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" placeholder="Enter your email" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="">Password: </label>
+            <input type="password" placeholder="Enter your password" name="password" id="password" required>
+        </div>
+        <div>
+            <label for="dob">DOB: </label>
+            <input type="date" name="dob" id="dob">
+        </div>
+        <div>
+            <label for="phone">Phone Number: </label>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone number">
+        </div>
+        <div>
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+            </div>
+            <div>
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="Female">
+            </div>
+        </div>
+        <div>
+            <label for="bio">Bio</label>
+            <textarea name="bio" id="bio" placeholder="Write something about yourself" rows="4" cols="30"></textarea>
+        </div>
+        <div>
+            <label for="siblings">Siblings</label>
+            <input type="number" name="siblings" id="siblings" placeholder="Enter number of siblings">
+        </div>
+        <div>
+            <input type="checkbox" name="terms" id="terms" value="agree" required>
+            <label for="terms">Yes, I agree to Terms, Privacy Policy and Cookies Policy.</label>
+        </div>
+        <!-- <input type="submit" name="submit" id="submit" value="Sign Up"> -->
+        <button type="reset">Reset</button>
+        <button type="submit" name="submit">Sign up</button>
+    </form>
+</body>
+
+</html>
